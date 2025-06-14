@@ -7,7 +7,7 @@ const Todo = ({ todo, toggleTodo }) => {
     return (
         <div>
             <label>
-                <input type='checkbox' checkes={todo.completed}
+                <input type='checkbox' checked={todo.completed}
                     readOnly
                     onChange={handleTodoClick} />
             </label>
@@ -16,4 +16,4 @@ const Todo = ({ todo, toggleTodo }) => {
     );
 };
 
-export default TodoList;
+export default Todo;
