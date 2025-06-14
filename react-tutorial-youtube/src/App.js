@@ -1,10 +1,10 @@
+import TodoList from "./TodoList";
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello React
+    <div >
+      <TodoList />
     </div>
   );
 }
